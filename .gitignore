@@ -1,0 +1,23 @@
+# Private credentials / local environment
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+
+# Cloudflare, Node and system artifacts
+node_modules/
+.wrangler/
+.DS_Store
+Thumbs.db
+*.log
+
+# User exports and private data
+*backup*.json
+*Backup*.json
+*loan-data*.json
+*loan_data*.json
+*.sqlite
+*.db

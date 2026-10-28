@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "loannest-ai",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "ai": { "binding": "AI" },
+  "vars": {
+    "ALLOWED_ORIGINS": "null,http://localhost:8788,http://127.0.0.1:8788"
+  }
+}
